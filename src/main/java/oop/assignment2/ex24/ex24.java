@@ -35,4 +35,5 @@ public class ex24 {
         String output = "\"" + s1 + "\" and \"" + s2 + "\" are " + conditional + "anagrams.";
         return output;
     }
+
 }
