@@ -2,6 +2,11 @@ package oop.assignment2.ex30;
 
 import java.text.DecimalFormat;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Drake Scott
+ */
+
 public class Array {
     public static int[][] generateArray(int length){
         int[][] array;
