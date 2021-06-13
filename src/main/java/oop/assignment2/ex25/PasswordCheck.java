@@ -1,12 +1,10 @@
 package oop.assignment2.ex25;
-import java.util.Arrays;
 
 public class PasswordCheck {
 
     public static int passwordValidator(String password){
-        int result = 0;     //0 = very weak, 1 = weak, 2 = avg, 3 = above avg, 4 = strong, 5 = very strong
+        //0 = very weak, 1 = weak, 2 = avg, 3 = above avg, 4 = strong, 5 = very strong
         int letterCount = 0, numCount = 0, n = password.length();
-        char[] arr = password.toCharArray();        //convert string to character array
 
         if(n < 8){                  //check how long password is.
 

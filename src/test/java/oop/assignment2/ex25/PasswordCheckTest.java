@@ -57,7 +57,7 @@ class PasswordCheckTest {
     @Test
     void veryStrong() {
         PasswordCheck pc = new PasswordCheck();
-        int actual = pc.passwordValidator("heym@n123");
+        int actual = pc.passwordValidator("@Re@11yG00dPa$$w0Rd!");
 
         assertEquals(5,actual);
     }

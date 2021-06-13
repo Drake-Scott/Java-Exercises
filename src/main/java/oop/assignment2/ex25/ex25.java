@@ -17,7 +17,7 @@ public class ex25 {
 
         String strength = interpretStrength(result);
 
-        generateOutput(strength);
+        System.out.println(generateOutput(strength));
     }
 
     public static void readUserInput(){
