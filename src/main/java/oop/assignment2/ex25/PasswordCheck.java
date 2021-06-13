@@ -1,5 +1,10 @@
 package oop.assignment2.ex25;
 
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Drake Scott
+ */
+
 public class PasswordCheck {
 
     public static int passwordValidator(String password){

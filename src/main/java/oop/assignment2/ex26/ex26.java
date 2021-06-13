@@ -1,10 +1,11 @@
 package oop.assignment2.ex26;
-
-
-import oop.assignment2.ex25.PasswordCheck;
-
 import java.text.DecimalFormat;
 import java.util.Scanner;
+
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Drake Scott
+ */
 
 public class ex26 {
     private static double n, apr, b, p, i;

@@ -1,6 +1,9 @@
 package oop.assignment2.ex25;
 
-import oop.assignment2.ex24.AnagramDetector;
+/*
+ *  UCF COP3330 Summer 2021 Assignment 2 Solution
+ *  Copyright 2021 Drake Scott
+ */
 
 import java.util.Scanner;
 
