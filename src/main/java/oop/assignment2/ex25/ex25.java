@@ -26,7 +26,7 @@ public class ex25 {
     }
 
     public static String interpretStrength(int result){
-        String strength = "very weak";
+        String strength = " very weak";
         //0 = very weak, 1 = weak, 2 = avg, 3 = above average, 4 = strong, 5 = very strong.
         if (result == 0){
             return strength;
