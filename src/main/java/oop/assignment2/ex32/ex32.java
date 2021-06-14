@@ -31,10 +31,6 @@ public class ex32 {
     public static void readUserInput(){
         System.out.print("Enter the difficulty level (1, 2, or 3): ");
         difficulty = numericInputOnlyDifficulty();
-        while(3 < difficulty || 1 > difficulty){
-            System.out.print("Invalid input, please enter a number: ");
-            difficulty = input.nextInt();
-        }
     }
 
     public static void guessing(int randomNum){
