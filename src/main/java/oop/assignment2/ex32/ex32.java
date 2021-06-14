@@ -81,7 +81,7 @@ public class ex32 {
                 return Integer.parseInt(input.nextLine());
             }
             catch(NumberFormatException e){
-                System.out.print("Invalid input, please enter a number: ");
+                System.out.print("Invalid input, please enter a number between 1 and 3: ");
             }
         }
     }
